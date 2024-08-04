@@ -12,10 +12,10 @@ const listschema=new mongoose.Schema({
         type:String,
         required:true
     },
-    user:{
+    user:[{
         type:mongoose.Types.ObjectId,
         ref:"user"
          
-    }
+    }]
 })
 module.exports=mongoose.model("list",listschema);

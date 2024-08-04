@@ -1,0 +1,26 @@
+.kayit{
+    width: fit-content 50%;
+    height: 90vh;
+    background-color: black;
+    
+}
+
+.kayıtform{
+    margin-left: auto;
+    margin-top: auto;
+    width: 50vh;
+    height: 50vh;
+    background-color: aqua;
+}
+.col-left{
+    border-left: 1px solid black;
+
+}
+.btn-c{
+   background-color:rgb(255, 0, 0); 
+   color: white;
+   outline: none;
+   border: none;
+   border-radius: 10%;
+
+}

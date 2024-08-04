@@ -16,10 +16,10 @@ const userschema=new mongoose.Schema({
     password:{
         type:String,
         required:true
-    }, list:{
+    }, list:[{
         type:mongoose.Types.ObjectId,
         ref:"list"
          
-    }
+    }]
 })
 module.exports=mongoose.model("user",userschema);
