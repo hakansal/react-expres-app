@@ -11,7 +11,8 @@ const Todo=()=>{
              placeholder="başlık" 
              className="p-2 todoinputs"
              onClick={show}/>
-
+  
+  
              <textarea
              id="textarea"
               type="text" 
