@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 
 const connectToDatabase = async () => {
     try {
-        await mongoose.connect("mongodb+srv://hakansal:24321008350Hk@cluster0.bx7kshl.mongodb.net/", {
+        await mongoose.connect(" urlll", {
            
         });
         console.log("Veritabanına başarıyla bağlanıldı.");
